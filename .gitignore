@@ -1,0 +1,4 @@
+*.o
+*.ppm
+*.hi
+.DS_Store
