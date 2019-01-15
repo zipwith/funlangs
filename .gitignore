@@ -2,3 +2,5 @@
 *.ppm
 *.hi
 .DS_Store
+fractals/TextFractals
+fractals/PPMFractals
