@@ -40,6 +40,10 @@
 > picChar '!' = [ " !!  ", " !!  ", " !!  ", "     ", " !!  " ]
 > picChar ' ' = [ "     ", "     ", "     ", "     ", "     " ]
 > picChar '?' = [ " ??? ", "?   ?", "   ? ", "  ?  ", "  .  " ]
+> picChar '(' = [ "   ( ", "  (  ", "  (  ", "  (  ", "   ( " ]
+> picChar ')' = [ " )   ", "  )  ", "  )  ", "  )  ", " )   " ]
+> picChar ':' = [ "     ", "  :: ", "     ", "  :: ", "     " ]
+> picChar '-' = [ "     ", "     ", "-----", "     ", "     " ]
 > picChar c
 >  |isUpper c = picChar (toLower c)
 > picChar c   = picChar '?'
