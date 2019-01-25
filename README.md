@@ -9,6 +9,10 @@ Code samples for Functional Languages
   - `bst.lhs`: A literate version of the binary search tree
     example from the lecture.
 
+  - `Pic.lhs`: A library for drawing text "pictures".
+
+  - `TreeEdit.lhs`: An interactive tree editor.
+
 * Week 2
 
   - `group.lhs`: Some examples demonstrating the use of
