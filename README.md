@@ -1,6 +1,12 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 4
+
+  - `aug.hs`: Code for "Using Types to Parse Natural Language".
+    The paper and the original version of the code is available
+    at http://web.cecs.pdx.edu/~mpj/pubs/aug.html.
+
 * Week 3
 
   - `datatypes.lhs`: Some examples of datatype definitions
