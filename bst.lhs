@@ -3,7 +3,7 @@
 Here is a datatype for simple binary search trees:
 
 > data Tree = Leaf | Fork Tree Int Tree
->  deriving Show
+>   deriving Show
 
 As written, this definition describes binary trees, but doesn't
 enforce the requirement that smaller values always appear to the
@@ -11,10 +11,10 @@ left of larger values.  Instead, we have to make sure that this
 condition is satisfied when we insert a single element in to a
 tree:
 
-> insert  :: Int -> Tree -> Tree
-> insert n Leaf = Fork Leaf n Leaf
+> insert          :: Int -> Tree -> Tree
+> insert n Leaf    = Fork Leaf n Leaf
 > insert n (Fork l m r)
->      | n <= m = Fork (insert n l) m r
+>      | n <= m    = Fork (insert n l) m r
 >      | otherwise = Fork l m (insert n r)
 
 The benefit of doing this is that we can search quickly to see
