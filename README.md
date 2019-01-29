@@ -3,6 +3,11 @@ Code samples for Functional Languages
 
 * Week 4
 
+  - `countdown.lhs`:  Code for solving the countdown problem,
+    developed in class, but heavily based on the implementation
+    in Chapter 9, "Programming in Haskell (2nd ed)" by Graham
+    Hutton.
+
   - `aug.hs`: Code for "Using Types to Parse Natural Language".
     The paper and the original version of the code is available
     at http://web.cecs.pdx.edu/~mpj/pubs/aug.html.
