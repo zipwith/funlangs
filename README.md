@@ -1,6 +1,14 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 5
+
+  - `trees.hs`: Definitions for several different types of
+    tree data structure, and for a type class that captures
+    common properties between them, allowing us to write
+    generic functions that work on a range of different tree
+    types.
+
 * Week 4
 
   - `countdown.lhs`:  Code for solving the countdown problem,
