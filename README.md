@@ -9,6 +9,12 @@ Code samples for Functional Languages
     generic functions that work on a range of different tree
     types.
 
+  - `pathological.lhs`: An example illustrating pathological
+    behavior of Haskell-style type inference.
+
+  - `subtleties.lhs`: Some examples illustrating some subtle
+    details of Haskell-style type inference.
+
 * Week 4
 
   - `countdown.lhs`:  Code for solving the countdown problem,
