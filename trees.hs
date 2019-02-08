@@ -5,6 +5,8 @@
 --   hugs -98 trees.hs
 --
 
+{-# LANGUAGE FlexibleInstances #-}
+
 -- Basic binary trees:
 
 data BinTree a   = Leaf a
