@@ -15,6 +15,10 @@ Code samples for Functional Languages
   - `subtleties.lhs`: Some examples illustrating some subtle
     details of Haskell-style type inference.
 
+  - `Treedot.lhs`: A library for generating GraphViz/dot files
+    for tree-like data structures using a simple variant of the
+    approach that was presented in lectures.
+
 * Week 4
 
   - `countdown.lhs`:  Code for solving the countdown problem,
