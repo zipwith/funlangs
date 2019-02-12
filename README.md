@@ -1,6 +1,21 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 6
+
+  - `IOActions.lhs`: A repackaging of some standard Haskell
+    functions to be used "IO Actions".
+
+  - `IOExercises.lhs`: A template for some exercises using
+    IO Actions.
+
+  - `WebActions.lhs`: A library of IO actions for downloading
+    files and processing web pages.  (See `IOActions-README.txt`
+    for further details about these files, including information
+    on how to install the necessary packages to use
+    `WebActions.lhs`.)
+
+
 * Week 5
 
   - `trees.hs`: Definitions for several different types of
