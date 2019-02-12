@@ -15,6 +15,8 @@ Code samples for Functional Languages
     on how to install the necessary packages to use
     `WebActions.lhs`.)
 
+  - `grading.lhs`: A demo program illustrating how we
+    can use Haskell as a basic calculator.
 
 * Week 5
 
