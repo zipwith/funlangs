@@ -2,6 +2,9 @@
 
 > import IOActions
 
+Here are some questions that you can try to answer
+as simple exercises using IO actions.
+
 -------------------
 1) How many Haskell source files are there in the
 current directory?
@@ -39,7 +42,7 @@ reused:)
 
 -------------------
 3) What is the largest Haskell source file in the
-current directory
+current directory?
 
 > problem3 :: IO ()
 > problem3
@@ -55,7 +58,7 @@ want to find the largest Haskell file ...)
 
 -------------------
 4) Copy the largest Haskell source file in the
-current directory into Largest.hs
+current directory into Largest.hs.
 
 I object, that wasn't a question!  But I know what
 you mean ... :-)
