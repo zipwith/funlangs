@@ -1,6 +1,12 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 7
+
+  - `mailmerge/`: A small demo using a combination of IO actions
+    (with `do` notation) and a purely functional transformation
+    on `String`s to implement a simple mail merge program.
+
 * Week 6
 
   - `IOActions.lhs`: A repackaging of some standard Haskell
