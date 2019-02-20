@@ -3,6 +3,9 @@ Code samples for Functional Languages
 
 * Week 7
 
+  - `game.lhs`: The simple guessing game developed in class at
+    the end of the lecture on Feb 19.
+
   - `mailmerge/`: A small demo using a combination of IO actions
     (with `do` notation) and a purely functional transformation
     on `String`s to implement a simple mail merge program.
