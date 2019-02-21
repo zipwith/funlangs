@@ -10,6 +10,22 @@ Code samples for Functional Languages
     (with `do` notation) and a purely functional transformation
     on `String`s to implement a simple mail merge program.
 
+  - `Set.lhs`: An implementation of sets as characteristic
+    functions.
+
+  - `artwork/*`: A library for constructing images as function
+    values.
+
+  - `ParserCombs.lhs`: A library of "parser combinators", using
+    function values to represent and implement a broad range of
+    parsing mechanisms.  The code in this file is intended for
+    use with Hugs.
+
+  - `ParserCombsGHC.lhs`: A version of the `ParserCombs.lhs`
+    library that is suitable for use with GHC/GHCi.  (The only
+    real difference is that the GHC version includes the required
+    instance for the `Applicative` class.)
+
 * Week 6
 
   - `IOActions.lhs`: A repackaging of some standard Haskell
