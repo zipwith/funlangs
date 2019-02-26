@@ -1,6 +1,20 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 8
+
+  - `Relabel.lhs`: Example programs implementing a tree-relabeling
+    process in a purely functional style, including both a direct
+    version and an alternative that uses a monad to hide some of
+    the underlying plumbing.  See comments in file for changes to
+    make if you want to use this file with GHC.
+
+  - `RelabelTrans.lhs`: An extension of `Relabel.lhs` that uses
+    monad transformers to build a suitable monad instead of a
+    custom-built monad.
+
+  - `State.lhs`: A simple state monad library.
+
 * Week 7
 
   - `game.lhs`: The simple guessing game developed in class at
