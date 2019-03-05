@@ -1,6 +1,11 @@
 # funlangs
 Code samples for Functional Languages
 
+* Week 9
+
+  - `Testing.lhs`: Some demos to accompany the lecture about testing
+    using the QuickCheck and HUnit libraries.
+
 * Week 8
 
   - `Relabel.lhs`: Example programs implementing a tree-relabeling
